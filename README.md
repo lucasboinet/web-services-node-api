@@ -1,6 +1,8 @@
 # Installation du projet
 Node version : 21.6.1
 
+_Copy .env.example to a .env file_
+
 - `npm install`
 
 - `docker-compose up -d`
@@ -16,7 +18,7 @@ On a trouvé que docker-compose facilite le développement en local.
 
 Pour l'architecture, il faut y penser dès le début du projet. 
 
-On a trouvé qu'Express s'utilise plutot bien et q'il est user-friendly.
+On a trouvé qu'Express s'utilise plutot bien et qu'il est user-friendly.
 
 Pour l'allier avec MongoDB, on est parti sur mongoose en ODM, qui selon nous, s'utilise plutot bien. 
 
